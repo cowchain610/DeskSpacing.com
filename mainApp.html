@@ -3037,7 +3037,7 @@
 
 
         //Loader for the room
-        /*loader.load('rooms/room_2_no_roof.glb', function (gltf) {
+        loader.load('rooms/room_2_no_roof.glb', function (gltf) {
             var theModel = gltf.scene;
             theModel.traverse((o) => {
                 if (o.isMesh) {
@@ -3048,7 +3048,7 @@
             scene.add(gltf.scene);
         }, undefined, function (error) {
             console.error(error);
-        });*/
+        });
 
         function render() {
             renderer.render(scene, camera);
